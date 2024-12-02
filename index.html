@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="color: rgb(63, 63, 174);">Rahul's SkillX Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 style="color: rgb(63, 63, 198);">Rahul's SkillX Project   </h1>
+    </header>
+
+    <div class="content">
+        <!-- Form to upload an image -->
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            <label for="image">Choose an image (max 5MB): </label>
+            <input type="file" name="image" id="image" required>
+            <button type="submit" name="submit">Upload Image</button>
+        </form>
+
+        <div class="text-blocks">
+            <label for="block1">link to demo video:</label>
+            <textarea id="block1" name="block1"></textarea>
+
+            <label for="block2">project detail's:</label>
+            <textarea id="block2" name="block2"></textarea>
+        </div>
+    </div>
+
+</body>
+</html>
